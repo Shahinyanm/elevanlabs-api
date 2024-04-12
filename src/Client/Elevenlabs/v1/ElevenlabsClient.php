@@ -1,13 +1,13 @@
 <?php
 
-namespace Shahinyanm\ElevenlabsApi\Client\Elevenlabs\v1;
+namespace Hyperspace\ElevenlabsApi\Client\Elevenlabs\v1;
 
 
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
-use Shahinyanm\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterSpeechToSpeechRequestDto;
-use Shahinyanm\ElevenlabsApi\Enums\Client\Elevenlabs\ElevenlabsConfigEnum;
+use Hyperspace\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterSpeechToSpeechRequestDto;
+use Hyperspace\ElevenlabsApi\Enums\Client\Elevenlabs\ElevenlabsConfigEnum;
 
 abstract class ElevenlabsClient
 {

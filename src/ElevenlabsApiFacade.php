@@ -1,11 +1,11 @@
 <?php
 
-namespace Shahinyanm\ElevenlabsApi;
+namespace Hyperspace\ElevenlabsApi;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Shahinyanm\ElevenlabsApi\Skeleton\SkeletonClass
+ * @see \Hyperspace\ElevenlabsApi\Skeleton\SkeletonClass
  */
 class ElevenlabsApiFacade extends Facade
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Shahinyanm\ElevenlabsApi\Services\Elevenlabs;
+namespace Hyperspace\ElevenlabsApi\Services\Elevenlabs;
 
 use Exception;
 use Illuminate\Support\Str;
-use Shahinyanm\ElevenlabsApi\Client\Elevenlabs\v1\Convert\ElevenlabsConvertClient;
-use Shahinyanm\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterSpeechToSpeechRequestDto;
-use Shahinyanm\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterTextToSpeechRequestDto;
-use Shahinyanm\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterTextToSpeechStreamRequestDto;
-use Shahinyanm\ElevenlabsApi\Traits\FileSystem\HasFileMethod;
+use Hyperspace\ElevenlabsApi\Client\Elevenlabs\v1\Convert\ElevenlabsConvertClient;
+use Hyperspace\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterSpeechToSpeechRequestDto;
+use Hyperspace\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterTextToSpeechRequestDto;
+use Hyperspace\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterTextToSpeechStreamRequestDto;
+use Hyperspace\ElevenlabsApi\Traits\FileSystem\HasFileMethod;
 
 class ElevenlabsConvertService
 {
