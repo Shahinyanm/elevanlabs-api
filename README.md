@@ -17,8 +17,27 @@ composer require hyperspace/elevenlabs-api
 ```bash
 php artisan vendor:publish
 ```
+## Configuration 
+
+```bash
+ cp .env.example .env And add required values
+ ```
 
 You need to write ``` ELEVEAN_LAB_API_KEY ``` in .env with the value
+You need to write ``` ELEVEAN_LAB_API_BASE_URL ``` in .env with the value
+You need to write ``` ELEVEAN_LAB_STORAGE_DISK ``` in .env with the value for default file system disk name 
+
+## Usage
+
+```php
+use Hyperspace\ElevenlabsConvertService;
+
+$elevanLabService = new ElevenlabsConvertService();
+$voiceId = 'someVoiceId';
+$modelId = 'SomeId';
+$text='Some text  for convert'
+$elevanLabService->convertTextToSpeech($voiceId,$modelId,$text);
+```
 
 ### Testing
 
