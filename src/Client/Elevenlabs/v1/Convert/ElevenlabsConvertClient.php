@@ -74,4 +74,25 @@ class ElevenlabsConvertClient extends ElevenlabsClient
             $filePath,
         );
     }
+
+    /**
+     * @param string $voiceId
+     * @param ElevenlabsConverterSpeechToSpeechRequestDto $dto
+     * @param string $filePath
+     * @return Response
+     * @throws Exception
+     */
+    public function streamSpeechToSpeechConvertRequest(
+        string                                      $voiceId,
+        ElevenlabsConverterSpeechToSpeechRequestDto $dto,
+        string                                      $filePath
+    ): Response
+    {
+        return $this->convertingRequestWithVoiceId(
+            ElevenlabsConfigEnum::SPEECH_TO_SPEECH_STREAM,
+            $voiceId,
+            $dto->toJson(),
+            $filePath,
+        );
+    }
 }

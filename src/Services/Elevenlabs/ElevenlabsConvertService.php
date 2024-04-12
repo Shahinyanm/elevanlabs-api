@@ -117,4 +117,30 @@ class ElevenlabsConvertService
         return $this->saveConvertedFile(config('elevenlabs-api.storage.path.speechToSpeech'), $this->fileName);
     }
 
+    /**
+     * @param string $voiceId
+     * @param string $audio
+     * @param string|null $modelId
+     * @param array|null $voiceSettings
+     * @return string
+     * @throws Exception
+     */
+    public function streamConvertSpeechToSpeech(
+        string $voiceId,
+        string $audio,
+        ?string $modelId = null,
+        ?array $voiceSettings = null,
+    ): string {
+        $this->client->streamSpeechToSpeechConvertRequest(
+            $voiceId,
+            new ElevenlabsConverterSpeechToSpeechRequestDto(
+                $audio,
+                $modelId,
+                $voiceSettings,
+            ),
+            $this->fileName,
+        );
+        return $this->saveConvertedFile(config('elevenlabs-api.storage.path.speechToSpeech'), $this->fileName);
+    }
+
 }
