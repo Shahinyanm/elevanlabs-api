@@ -1,8 +1,8 @@
 {
-    "name": "shahinyanm/elevenlab-api",
+    "name": "hyperspace/elevenlab-api",
     "description": "Wrapper for ElevenLabs Ai Model api",
     "keywords": [
-        "shahinyanm",
+        "hyperspace",
         "elevenlabs-api"
     ],
     "homepage": "https://github.com/shahinyanm/elevenlabs-api",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Shahinyanm\\ElevenlabsApi\\": "src"
+            "Hyperspace\\ElevenlabsApi\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Shahinyanm\\ElevenlabsApi\\Tests\\": "tests"
+            "Hyperspace\\ElevenlabsApi\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Shahinyanm\\ElevenlabsApi\\ElevenlabsApiServiceProvider"
+                "Hyperspace\\ElevenlabsApi\\ElevenlabsApiServiceProvider"
             ],
             "aliases": {
-                "ElevenlabsApi": "Shahinyanm\\ElevenlabsApi\\ElevenlabsApiFacade"
+                "ElevenlabsApi": "Hyperspace\\ElevenlabsApi\\ElevenlabsApiFacade"
             }
         }
     }

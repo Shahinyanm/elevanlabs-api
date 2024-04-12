@@ -1,6 +1,6 @@
 <?php
 
-namespace Shahinyanm\ElevenlabsApi\Enums\Client\Elevenlabs;
+namespace Hyperspace\ElevenlabsApi\Enums\Client\Elevenlabs;
 
 enum ElevenlabsConfigEnum: string
 {

@@ -14,6 +14,12 @@ You can install the package via composer:
 composer require shahinyanm/elevenlabs-api
 ```
 
+```bash
+php artisan vendor:publish
+```
+
+You need to write ``` ELEVEAN_LAB_API_KEY ``` in .env with the value
+
 ### Testing
 
 ```bash

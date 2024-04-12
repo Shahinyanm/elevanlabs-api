@@ -1,6 +1,6 @@
 <?php
 
-namespace Shahinyanm\ElevenlabsApi\Traits\FileSystem;
+namespace Hyperspace\ElevenlabsApi\Traits\FileSystem;
 
 use Illuminate\Http\File;
 use Illuminate\Support\Facades\Storage;

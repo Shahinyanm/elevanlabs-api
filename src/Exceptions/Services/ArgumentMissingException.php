@@ -1,6 +1,6 @@
 <?php
 
-namespace Shahinyanm\ElevenlabsApi\Exceptions\Services;
+namespace Hyperspace\ElevenlabsApi\Exceptions\Services;
 
 use Exception;
 use Illuminate\Http\Client\Request;

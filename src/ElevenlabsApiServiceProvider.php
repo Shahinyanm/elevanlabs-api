@@ -1,9 +1,9 @@
 <?php
 
-namespace Shahinyanm\ElevenlabsApi;
+namespace Hyperspace\ElevenlabsApi;
 
 use Illuminate\Support\ServiceProvider;
-use Shahinyanm\ElevenlabsApi\Services\Elevenlabs\ElevenlabsConvertService;
+use Hyperspace\ElevenlabsApi\Services\Elevenlabs\ElevenlabsConvertService;
 
 class ElevenlabsApiServiceProvider extends ServiceProvider
 {

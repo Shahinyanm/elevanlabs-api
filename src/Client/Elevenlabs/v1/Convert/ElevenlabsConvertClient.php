@@ -1,14 +1,14 @@
 <?php
 
-namespace Shahinyanm\ElevenlabsApi\Client\Elevenlabs\v1\Convert;
+namespace Hyperspace\ElevenlabsApi\Client\Elevenlabs\v1\Convert;
 
 use Exception;
 use Illuminate\Http\Client\Response;
-use Shahinyanm\ElevenlabsApi\Client\Elevenlabs\v1\ElevenlabsClient;
-use Shahinyanm\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterSpeechToSpeechRequestDto;
-use Shahinyanm\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterTextToSpeechRequestDto;
-use Shahinyanm\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterTextToSpeechStreamRequestDto;
-use Shahinyanm\ElevenlabsApi\Enums\Client\Elevenlabs\ElevenlabsConfigEnum;
+use Hyperspace\ElevenlabsApi\Client\Elevenlabs\v1\ElevenlabsClient;
+use Hyperspace\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterSpeechToSpeechRequestDto;
+use Hyperspace\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterTextToSpeechRequestDto;
+use Hyperspace\ElevenlabsApi\Dto\Elevenlabs\Converter\ElevenlabsConverterTextToSpeechStreamRequestDto;
+use Hyperspace\ElevenlabsApi\Enums\Client\Elevenlabs\ElevenlabsConfigEnum;
 
 class ElevenlabsConvertClient extends ElevenlabsClient
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Shahinyanm\ElevenlabsApi\Dto\Elevenlabs\Converter;
+namespace Hyperspace\ElevenlabsApi\Dto\Elevenlabs\Converter;
 
-use Shahinyanm\ElevenlabsApi\Dto\Dto;
+use Hyperspace\ElevenlabsApi\Dto\Dto;
 
 class ElevenlabsConverterTextToSpeechRequestDto extends Dto
 {

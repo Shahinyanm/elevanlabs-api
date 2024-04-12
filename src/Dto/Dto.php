@@ -1,6 +1,6 @@
 <?php
 
-namespace Shahinyanm\ElevenlabsApi\Dto;
+namespace Hyperspace\ElevenlabsApi\Dto;
 
 abstract class Dto
 {
